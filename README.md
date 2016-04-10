@@ -8,6 +8,9 @@ PocketMine-MP Plugin.
 <h4>Description</h4>
 The players can't drop items.
 
+<h4>Installation Instructions</h4>
+Download *NoDrops_v1.0.phar*, put it in your puglins and restart your server.
+
 <h4>Config</h4>
 For the moment *NoDrops* doesn't have config.
 
