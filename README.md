@@ -1,2 +1,27 @@
-# NoDrops
-[PocketMine-MP Plugin] The players can't drop items.
+<h2>NoDrops</h2>
+
+<h4>Version: 1.0</h4>
+
+<h4>Type</h4>
+PocketMine-MP Plugin.
+
+<h4>Description</h4>
+The players can't drop items.
+
+<h4>Config</h4>
+For the moment *NoDrops* doesn't have config.
+
+<h4>Permissions</h4>
+For the moment *NoDrops* doesn't have permissions.
+
+<h4>Tested</h4>
+*NoDrops* was tested in:
+
+* **Genisys 1.1**
+
+<h4>Notes</h4>
+Try it on other software and let me know please.
+
+<h4>Info</h4>
+
+* Twitter: **@Yupai90**
