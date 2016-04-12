@@ -2,7 +2,9 @@ name: NoDrops
 author: Yupai
 description: "The players can't drop items"
 version: 1.0
-api: 2.0.0
+api: 
+- 1.13.0
+- 2.0.0
 main: yupai\NoDrops\Main
 
    
