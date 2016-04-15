@@ -24,8 +24,8 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onDrop(PlayerDropItemEvent $event){
-        $nd = $this->getConfig;
-        $enable = $nd->get("Select_true_or_false")
+        $nds = $this->getConfig;
+        $enable = $nds->get("Select_true_or_false")
         $player = $event->getPlayer();
         $event->setCancelled($enable);
     } 
