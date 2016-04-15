@@ -1,2 +1,6 @@
 ---
+#NoDrops by Yupai config file.
+
+#Select true or false for disable or enable the drops.
+Select_true_or_false: true
 ...
