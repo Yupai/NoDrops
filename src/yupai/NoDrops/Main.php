@@ -12,7 +12,9 @@ use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener {
 
-    public function OnEnable(){ //to-do: add config for disable or enable the drops.
+    public function OnEnable(){
+        $this->saveDefaultConfig();
+        $this->reloadConfig();
         $this->getServer()->getPluginManager()->registerEvents($this ,$this);
         $this->getLogger()->info(TextFormat::GREEN . "NoDrops by Yupai Enable!");
     }
@@ -22,7 +24,9 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onDrop(PlayerDropItemEvent $event){
+        $nd = $this->getConfig;
+        $enable = $nd->get("Select_true_or_false")
         $player = $event->getPlayer();
-        $event->setCancelled(true);
+        $event->setCancelled($enable);
     } 
 }
