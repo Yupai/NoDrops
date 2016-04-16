@@ -1,5 +1,7 @@
 <h2>NoDrops</h2>
 
+![My image](https://github.com/Yupai/NoDrops/blob/master/NoDrops.png)
+
 <h4>Version: 1.0</h4>
 
 <h4>Type</h4>
