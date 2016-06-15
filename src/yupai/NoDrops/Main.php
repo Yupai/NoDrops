@@ -21,7 +21,6 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onDrop(PlayerDropItemEvent $event){
-        $player = $event->getPlayer();
         $event->setCancelled(true);
     }
 }
